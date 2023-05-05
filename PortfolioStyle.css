@@ -89,6 +89,16 @@ justify-content: space-evenly;
 .skilllegend ul li p,.skillscat ul li p{
   display: inline;
 }
+/* projects */
+#projects .projectscontent .container{
+  display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#projects .projectscontent .container .row img{
+  width: 100%;
+}
+
 /* contact */
 .containerform{
   width: 60%;
@@ -180,6 +190,7 @@ justify-content: space-evenly;
   width: 100%;
 }
 
+
   
 }
 
@@ -258,6 +269,24 @@ justify-content: space-evenly;
   .skillscat{
 
   }
+  /* projects */
+#projects .projectscontent   img{
+ width: 100% ;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+
+}
+.project-img{
+  padding: 5px;
+  order: 1;
+}
+ .project-text{
+  padding: 5px;
+  order: 2;
+}
+
   /* footer */
   #footer .container{
     flex-direction: column;
@@ -266,12 +295,12 @@ justify-content: space-evenly;
   #footer .media ul,.bars ul{
     justify-content: space-evenly;
   }
-  /* #footer .container .row{
-    row-gap: 30px;
-  } */
   #footer .container .bars,
   #footer .container .media{
     width: 100%;
   }
+
   
 }
+
+
