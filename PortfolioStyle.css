@@ -49,7 +49,9 @@ font-family: 'Roboto Mono', monospace;
 
 /* about */
 .title{
-    padding: 3rem 0;text-align: center;
+    padding: 3rem 0;
+    text-align: center;
+    
 }
 .aboutcontent{
     display: flex;
@@ -60,8 +62,8 @@ font-family: 'Roboto Mono', monospace;
     width: 58%;
 }
 .aboutcontent img{
-    width: 30%;
-    height: 300px;
+    /* width: 30%; */
+    /* height: 300px; */
     border-radius: 69%;
     background-color: gray;
 }
@@ -88,6 +90,7 @@ justify-content: space-evenly;
 }
 .skilllegend ul li p,.skillscat ul li p{
   display: inline;
+  
 }
 /* projects */
 #projects .projectscontent .container{
@@ -97,6 +100,8 @@ justify-content: space-evenly;
 }
 #projects .projectscontent .container .row img{
   width: 100%;
+  border-radius: 15%;
+  box-shadow: 0 0 30px gray;
 }
 
 /* contact */
@@ -238,7 +243,7 @@ justify-content: space-evenly;
     padding: 30px 0 0 0 ;
 }
   .headsection2 .image{
-      width: 75%;
+      width: 100%;
   }
   .title{
       padding: 2rem 0;
@@ -267,8 +272,8 @@ justify-content: space-evenly;
   #skills .container .skillsimg .skillscat{
     display: flex;
   }
-  .skillscat{
-
+  .skillscat,.skillviz ul li {
+    font-size: 12px;
   }
   /* projects */
 #projects .projectscontent   img{
