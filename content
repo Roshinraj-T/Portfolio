@@ -8,7 +8,7 @@ Overall, I am a motivated and dedicated individual who is passionate about techn
 
 
 
-% new
+% new about
 Hi there! My name is Kelvin, and I am a Full-Stack Developer with less than a year of experience in the field. During my 9-month internship at CTS, I worked with a team of experienced professionals and learned a lot about developing software applications and collaborating with team members to achieve project goals.
 
 Apart from my work as a developer, I am also a passionate volleyball player and enjoy playing the sport in my free time. Over the years, I have played for several teams and even had the opportunity to lead some of them, which helped me develop excellent leadership skills.
@@ -18,3 +18,32 @@ I completed a web development course on Udemy, where I gained in-depth knowledge
 I am passionate about problem-solving and always looking for new challenges to tackle. I am constantly learning new technologies and techniques to enhance my skills and deliver exceptional results. I enjoy working with a team of like-minded individuals to brainstorm ideas and develop innovative solutions to complex problems.
 
 In summary, my passion for technology and problem-solving, combined with my experience in software development, leadership skills, and ability to communicate effectively, makes me a valuable addition to any team.
+
+
+% skills
+
+% knowledge levels
+Beginner(Basic understanding)#FF0000,#FFA500
+Intermediate(Developing expertise)#0000FF
+Expert(Masterful knowledge)#800080,#8B0000
+% skills
+Javascript(Intermediate)
+Java    (Intermediate)  
+MYSQL     (Intermediate)
+Angular   (Beginner)
+NodeJS    (Beginner)
+HTML      (Expert)
+CSS       (Intermediate)
+Bootstrap   (Intermediate)
+Figma        (Beginner)
+Canva        (Intermediate)
+MS Word      (Intermediate)
+MS Powerpoint   (Intermediate)
+Presentaion  (Intermediate)
+
+% projects
+1. CSS Zengardern
+CSS Zen Garden is a website that reveals the true beauty of CSS. The site features a wide variety of designs, each with the same content but a different CSS style. I chose one of the designs and recreated the site using my own CSS style, using the HTML provided.
+
+2. Service Villa 
+Service villa is a website. that provides a connection between the vehicle owners and service man. it is very useful to service mans who have not their own service center and helps the vehicle owner to contact service man easily and faster.

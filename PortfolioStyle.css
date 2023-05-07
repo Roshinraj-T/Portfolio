@@ -3,12 +3,12 @@ font-family: 'Roboto Mono', monospace;
 }
 /*================ section1====================== */
 #head{
-    background-image: url(images/leaf.jpg);
+    /* background-image: url(images/leaf.jpg);
     height: 100vh;
-    background-size: cover;
+    background-size: cover; */
 }
 #head .header{
-    padding: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
     
 }
 #head .header ul{
@@ -17,25 +17,26 @@ font-family: 'Roboto Mono', monospace;
   justify-content: space-evenly;
 }
 #head .header ul li{
-    color: #fff;
+    color: rgb(3, 3, 3);
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
 }
 #head .header ul li a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .headsection2{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    /* padding: 30px 0; */
 }
 .headsection2 img{
-    width: 288px;
-    height: 330px;
+   width: 90%;
     border-radius: 25%;
-    background-color: gray;
+    box-shadow: 0 0 30px gray;
+    /* background-color: gray; */
 }
 .headsection2 .image{
     width: 30%;
@@ -43,8 +44,9 @@ font-family: 'Roboto Mono', monospace;
     justify-content: center;
 }
 .headsection2 h2,.headsection2 h5{
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin: 2rem 0 0 0;
+    text-align: center;
 }
 
 /* about */
@@ -65,7 +67,7 @@ font-family: 'Roboto Mono', monospace;
     /* width: 30%; */
     /* height: 300px; */
     border-radius: 69%;
-    background-color: gray;
+    /* background-color: gray; */
 }
 /* skills */
 .skillsimg{
@@ -84,6 +86,7 @@ justify-content: space-evenly;
   display: flex;
   justify-content: space-evenly;
   margin: 30px 0;
+
 }
 .skilllegend ul li,.skillscat ul li{
   list-style: none;
@@ -91,6 +94,15 @@ justify-content: space-evenly;
 .skilllegend ul li p,.skillscat ul li p{
   display: inline;
   
+}
+.skillscat .tech{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.skillscat .tech img{
+  width: 25px;
+  height: 25px;  
 }
 /* projects */
 #projects .projectscontent .container{
@@ -208,6 +220,20 @@ justify-content: space-evenly;
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   /* CSS */
+  /* .headsection2{
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0;
+  } */
+  .aboutcontent img{
+    width: 50%;
+  }
+  .aboutcontent{   
+    justify-content: center;
+  }
+  .aboutcontent1{
+    width: 100%;
+  }
   
 }
 
@@ -219,10 +245,28 @@ justify-content: space-evenly;
 @media (min-width: 481px) and (max-width: 767px) {
   
   /* CSS */
-  
-  .headsection2 .image{
-    width: 60%;
-}
+  /* home */
+  #head .header ul li{
+    font-size: 20px;
+  }
+  #head .header{
+    padding: 20px 0;
+  }
+  .headsection2{
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0;
+  }
+  /* about */
+  .aboutcontent img{
+    width: 50%;
+  }
+  .aboutcontent{   
+    justify-content: center;
+  }
+  .aboutcontent1{
+    width: 100%;
+  }
 }
 
 /* 
@@ -237,13 +281,15 @@ justify-content: space-evenly;
       font-size: 15px;
   }
   #head .headsection2{
-    margin: 100px 0;
+    /* margin: 100px 0; */
+    padding: 0;
   }
   #head .header{
     padding: 30px 0 0 0 ;
 }
   .headsection2 .image{
       width: 100%;
+      padding: 10px;
   }
   .title{
       padding: 2rem 0;
@@ -282,7 +328,7 @@ justify-content: space-evenly;
 .project{
   display: flex;
   flex-direction: column;
-
+  row-gap: 20px;
 }
 .project-img{
   padding: 5px;
@@ -300,6 +346,7 @@ justify-content: space-evenly;
   }
   #footer .media ul,.bars ul{
     justify-content: space-evenly;
+    font-size: 15px;
   }
   #footer .container .bars,
   #footer .container .media{
