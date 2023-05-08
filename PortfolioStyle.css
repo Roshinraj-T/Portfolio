@@ -313,6 +313,8 @@ justify-content: space-evenly;
   .skillviz{
     flex-direction: column;
     row-gap: 20px;
+
+    
   }
   #skills .container .skillsimg .skillscat{
     display: flex;
