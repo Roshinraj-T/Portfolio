@@ -297,6 +297,7 @@ justify-content: space-evenly;
       flex-direction: column;
       align-items: center;
       row-gap: 20px;
+      padding: 10px;
   }
   .aboutcontent1{
       width: 100%;
