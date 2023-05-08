@@ -1,5 +1,9 @@
 *{
-  font-family: 'Ubuntu Mono', monospace;}
+  font-family: 'Ubuntu Mono', monospace;
+}
+.my-page{
+  background-color: antiquewhite;
+}
 /*================ section1====================== */
 #head{
     /* background-image: url(images/leaf.jpg);
@@ -11,6 +15,7 @@
 }
 #head .header ul{
     padding: 0;
+    margin: 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -18,6 +23,11 @@
     color: rgb(3, 3, 3);
     list-style: none;
     font-size: 20px;
+    padding: 5px;
+}
+#head .header ul li:hover{
+  background-color: cyan;  
+  border-radius: 25%;
 }
 #head .header ul li a{
     text-decoration: none;
@@ -43,7 +53,7 @@
 }
 .headsection2 h2,.headsection2 h5{
     color: rgb(0, 0, 0);
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     text-align: center;
 }
 
@@ -62,7 +72,7 @@
 }
 .aboutcontent img{
     /* width: 30%; */
-    /* height: 300px; */
+    height: 300px;
     border-radius: 69%;
     /* background-color: gray; */
 }
@@ -112,6 +122,11 @@ justify-content: space-evenly;
   border-radius: 15%;
   box-shadow: 0 0 30px gray;
 }
+#projects .projectscontent .container .row .project-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* contact */
 .containerform{
@@ -120,7 +135,7 @@ justify-content: space-evenly;
 }
 /* footer */
 #footer{
-  margin: 50px 0;
+  padding: 60px 0;
 }
 #footer .container{
   display: flex;
@@ -144,9 +159,23 @@ justify-content: space-evenly;
   padding: 0;
   margin: auto 0;
 }
-#footer .media ul a,.bars ul a{
+.bars ul li:hover{
+  background-color: cyan;
+  border-radius: 25%; 
+}
+.media ul li:hover{
+background-color: cyan;
+border-radius: 25%;
+}
+#footer .media ul a{
   text-decoration: none;
   color: black;
+  padding: 10px 10px;
+}
+#footer .bars ul a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 3px;
 }
 #footer .copy p{
   text-align: center;
