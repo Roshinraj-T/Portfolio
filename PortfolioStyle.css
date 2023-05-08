@@ -1,6 +1,5 @@
 *{
-font-family: 'Roboto Mono', monospace;
-}
+  font-family: 'Ubuntu Mono', monospace;}
 /*================ section1====================== */
 #head{
     /* background-image: url(images/leaf.jpg);
@@ -313,8 +312,6 @@ justify-content: space-evenly;
   .skillviz{
     flex-direction: column;
     row-gap: 20px;
-
-    
   }
   #skills .container .skillsimg .skillscat{
     display: flex;
