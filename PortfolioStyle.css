@@ -8,8 +8,7 @@ font-family: 'Roboto Mono', monospace;
     background-size: cover; */
 }
 #head .header{
-    padding: 20px 0 20px 0;
-    
+    padding: 20px 0 20px 0;    
 }
 #head .header ul{
     padding: 0;
@@ -52,8 +51,7 @@ font-family: 'Roboto Mono', monospace;
 /* about */
 .title{
     padding: 3rem 0;
-    text-align: center;
-    
+    text-align: center;    
 }
 .aboutcontent{
     display: flex;
@@ -281,7 +279,7 @@ justify-content: space-evenly;
       font-size: 15px;
   }
   #head .headsection2{
-    /* margin: 100px 0; */
+    margin: 100px 0;
     padding: 0;
   }
   #head .header{
