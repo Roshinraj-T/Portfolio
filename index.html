@@ -2,233 +2,379 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <!-- css link -->
-    <!-- <link rel="stylesheet" href="PortfolioStyle.css"> -->
-    <link rel="stylesheet" href="./PortfolioStyle.css">
-    <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <!-- font awesome -->
-  <link rel="stylesheet"
- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-  />
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-  <!-- aos animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Roshinraj Thangasamy - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-  <div class="my-page">
-  <!-- ==========================home============================ -->
-<section id="head">
-  <!-- <div data-aos="fade-down "> -->
-     <div class="header">
-    <ul>
-      <li><a href="#head">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Project</a></li>
-      <!-- <li><a href="#blog">Blog</a></li> -->
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>  
-  <!-- </div>  -->
-      <div class="headsection2">
-        <div class="image "> 
-          <img src="./assets/images/pic2.jpg" alt="">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Roshinraj<span class="accent">.</span></h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <div class="name">
-          <h2 > Roshinraj Thangasamy</h2>
-          <h5 >Full Stack Developer</h5>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="name-highlight">Roshinraj Thangasamy</span>
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Developer</h2>
+                <p class="hero-description">
+                    Passionate about designing, developing, and optimizing dynamic web applications using Angular, TypeScript, Node.js, and NestJS.
+                    I deliver responsive, high-performance solutions with a focus on user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Roshinraj-T" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:roshin180701@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:6374656341" class="social-icon">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="floating-card card-1">
+                        <i class="fab fa-angular"></i>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-  </nav>
-</section>       
-<!-- =============================About===================================  -->
-<section id="about">
-  <div class="title">
-    <h1>ABOUT</h1>
-  </div>
-  <div class="container aboutcontent">
-  <div class="col-lg-9 aboutcontent1">
-    <p>Hi! My name is Roshin, and I am a Full Stack Developer with less than a year of experience in the field. During my 9-month internship at CTS, I worked with a team of experienced professionals and learned a lot about developing software applications and collaborating with team members to achieve project goals.</p>
-    <p>Apart from my work as a developer, I am also a passionate volleyball player and enjoy playing the sport in my free time. Over the years, I have played for several teams and even had the opportunity to lead some of them, which helped me develop excellent leadership skills.</p>
-    <p>I completed a web development course on Udemy, where I gained in-depth knowledge of web development technologies and best practices. As a Full-Stack Developer, I am a good speaker, able to communicate complex technical ideas in a clear and concise manner. I am also a self-motivated person who enjoys taking on new challenges and learning new technologies to enhance my skills.</p>
-  </div> 
-  <img class="col-lg-3 p-2" src="./assets/images/pic1.jpg" alt="">
-  <div class="aboutcontent2">
-    <p>I am passionate about problem-solving and always looking for new challenges to tackle. I am constantly learning new technologies and techniques to enhance my skills and deliver exceptional results. I enjoy working with a team of like-minded individuals to brainstorm ideas and develop innovative solutions to complex problems.</p>
-    <p>In summary, my passion for technology and problem-solving, combined with my experience in software development, leadership skills, and ability to communicate effectively, makes me a valuable addition to any team.</p>
-  </div>
-</div>
-</section>
-<!-- ============================Skills====================================== -->
-<section id="skills">
-  <div class="title">
-    <h1>SKILLS</h1>
-  </div>
-  <div class="skillsimg">
-    <div class="container ">
-    <div class="skillviz">
-   <img src="./assets/icons/brain.svg" alt="">
-    <div class="skilllegend">
-      <ul class="ul">
-        <li><i class="fa-solid fa-square" style="color: #FFA500;"></i>  <p>Beginner(Basic understanding)</p></li>
-        <li><i class="fa-solid fa-square" style="color: #0000FF;"></i>  <p>Intermediate(Developing expertise)</p></li>
-        <li><i class="fa-solid fa-square" style="color: #8B0000;"></i>  <p>Expert(Masterful knowledge)</p></li>
-      </ul>
-    </div>
-  </div>
-  <div class="skillscat">
-    <ul class="tech">
-      <li><img src="./assets/icons/square-js.svg" alt="">   <p>  Javascript</p> </li>
-      <li><img src="./assets/icons/java.svg" alt="">                          <p>  Java</p> </li>
-      <li><img src="./assets/icons/database-solid.svg" alt="">                <p>  MYSQL</p> </li>
-      <li> <img src="./assets/icons/angular.svg" alt="">                      <p>  Angular</p> </li>
-      <li><img src="./assets/icons/node-js.svg" alt="">                       <p>  NodeJS</p> </li>
-      <li><img src="./assets/icons/html5.svg" alt="">                         <p>  HTML</p> </li>
-      <!-- <li><i class="fa-solid fa-square"></i>  <p>Intermediate</p> </li> -->
-    </ul>
-    <ul class="tech">
-      <li><img src="./assets/icons/css3-alt.svg" alt="">                      <p>  CSS</p> </li>
-      <li><img src="./assets/icons/bootstrap.svg" alt="">                     <p>Bootstrap</p> </li>
-      <li><img src="./assets/icons/figma.svg" alt="">                         <p>Figma</p> </li>
-      <li><img src="./assets/icons/scissor-svgrepo-com.svg" alt="">           <p>Canva</p> </li>
-      <li><img src="./assets/icons/microsoft-office-svgrepo-com.svg" alt="">  <p>MS Office</p> </li>
-      <li><img src="./assets/icons/presentation-svgrepo-com.svg" alt="">      <p>Presentaion</p> </li>
-      <!-- <li><i class="fa-solid fa-square"></i>  <p></p> </li> -->
-      <!-- <li><i class="fa-solid fa-square"></i>  <p>Expert</p> </li> -->
-    </ul>
-  </div>  
-  </div>
-    </div>   
-</section>
+    </section>
 
-<!--=========================== Projects======================================= -->
-<section id="projects">
-  <div class="title">
-    <h1>PROJECTS</h1>
-  </div>
-  <div class="projectscontent">
-    <div class="container ">
-      <div class="row project">
-        <div class="col-lg-8 col-md-8 project-text">
-          <h3>Css Art</h3>
-          <p>CSS Zen Garden is a website that reveals the true beauty of CSS. The site features a wide variety of designs, each with the same content but a different CSS style. I chose one of the designs and recreated the site using my own CSS style, using the HTML provided.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Full Stack Developer with over 2 years of professional experience at Finstein Advizory Service LLP.
+                        I specialize in building scalable web applications with a focus on performance optimization and user experience.
+                    </p>
+                    <p>
+                        My expertise lies in the MEAN/MERN stack, with strong skills in Angular, NestJS, Node.js, and various databases.
+                        I've successfully delivered multiple enterprise-level applications, including chit fund management systems,
+                        employee dashboards, and engagement platforms.
+                    </p>
+                    <div class="education-cards">
+                        <div class="edu-card">
+                            <div class="edu-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>B.E. Electrical & Electronics</h4>
+                            <p>Saranathan College of Engineering</p>
+                            <span class="year">2018 - 2022</span>
+                        </div>
+                        <div class="edu-card">
+                            <div class="edu-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <h4>HSC - Computer Science</h4>
+                            <p>Town Higher Secondary School</p>
+                            <span class="year">2017 - 2018 | 79%</span>
+                        </div>
+                        <div class="edu-card">
+                            <div class="edu-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h4>SSLC</h4>
+                            <p>Mani Matriculation School</p>
+                            <span class="year">2015 - 2016 | 85.6%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4  project-img"><img src="./assets/images/csszengardern.jpg" alt=""></div>
-      </div>
-      <div class="row project">
-        <div class="col-lg-4 col-md-4 project-img"><img src="./assets/images/service-villa.jpg" alt=""></div>
-        <div class="col-lg-8 col-md-8 project-text">
-          <h3>Service Villa</h3>
-          <p>Service Villa is a website that connects vehicle owners with service providers. It is particularly useful for service providers who do not have their own service center and allows vehicle owners to quickly and easily find service providers. </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>NestJS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>WebSockets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MariaDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>D3.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Prompt Engineering</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-presentation"></i>
+                            <span>Presentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="company-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="company-name">Finstein Advizory Service LLP</span>
+                            <span class="duration">March 2023 - Present</span>
+                        </div>
+                        <p class="job-description">
+                            Working as a full-stack developer for over 2 years, delivering high-performance applications
+                            with a focus on optimization and fast response times. Collaborating with cross-functional teams
+                            to meet project deadlines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="projects-title">Key Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <h4>Employee Engagement Platform</h4>
+                    <p>
+                        Internal application facilitating employee engagement through posts, blogs, job postings, and celebrations.
+                        Independently handled both Angular and NestJS development.
+                    </p>
+                    <div class="project-highlights">
+                        <span class="highlight-tag"><i class="fas fa-bolt"></i> WebSockets Integration</span>
+                        <span class="highlight-tag"><i class="fas fa-shield-alt"></i> Role-Based Access</span>
+                        <span class="highlight-tag"><i class="fas fa-bell"></i> Real-time Notifications</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Angular</span>
+                        <span>NestJS</span>
+                        <span>WebSockets</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <h4>Employee Activity Dashboard</h4>
+                    <p>
+                        Dashboard application displaying employee activity details with interactive visualizations.
+                        Optimized performance through database indexing for faster data retrieval.
+                    </p>
+                    <div class="project-highlights">
+                        <span class="highlight-tag"><i class="fas fa-chart-bar"></i> D3.js Charts</span>
+                        <span class="highlight-tag"><i class="fas fa-tachometer-alt"></i> Performance Optimization</span>
+                        <span class="highlight-tag"><i class="fas fa-database"></i> Database Indexing</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Angular</span>
+                        <span>NestJS</span>
+                        <span>D3.js</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <h4>Chit Fund Management System</h4>
+                    <p>
+                        Comprehensive application managing chit funds and financial operations.
+                        Contributed to full-stack development ensuring secure and efficient financial transactions.
+                    </p>
+                    <div class="project-highlights">
+                        <span class="highlight-tag"><i class="fas fa-money-bill-wave"></i> Finance Management</span>
+                        <span class="highlight-tag"><i class="fas fa-lock"></i> Secure Transactions</span>
+                        <span class="highlight-tag"><i class="fas fa-users"></i> Multi-user System</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Angular</span>
+                        <span>NestJS</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      <div class="row project">
-        <div class="col-lg-8 col-md-8 project-text">
-          <h3>E-Store</h3>
-          <p>An e-commerce site is an online platform for businesses to sell products and services to customers over the internet. Customers can browse products, add them to their cart, and make purchases online. These sites offer various payment options for convenience and security. E-commerce sites are popular for their accessibility and convenience, allowing customers to shop from home.</p>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Codukalam 3.0</h3>
+                        <p class="achievement-title">Runner Up - Hackathon Competition</p>
+                        <p>
+                            3-day application development competition where our team successfully built a medical application
+                            and secured 2nd place.
+                        </p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Codukalam 5.0</h3>
+                        <p class="achievement-title">Runner Up - Hackathon Competition</p>
+                        <p>
+                            3-day application development competition where we developed a shoppy scanner application
+                            and achieved 2nd place.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 project-img"><img src="./assets/images/e-store.jpg" alt=""></div>
-      </div>
-      <!-- <div class="row project">
-        <h3>CSS Zangardern</h3>
-        <div class="col-lg-4 col-md-4 project-img"><img src="./images/csszengardern.jpg" alt=""></div>
-        <div class="col-lg-8 col-md-8 project-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minus officiis quaerat cum non nobis minima vero incidunt error, soluta in voluptates mollitia doloribus aperiam dicta, ab facilis explicabo quis?</p></div>       
-      </div> -->
-    <!-- </div> -->
-  </div>  
-  </div>
-</section>
-   
+    </section>
 
-  <!-- =======================blog============================================ -->
-  <!-- <section id="blog">
-    <div class="title">
-      <h1>BLOG</h1>
-    </div>
-    <div class="blogcontent">
-      <div class="blog1"></div>
-      <div class="blog2"></div>
-      <div class="blog3"></div>
-    </div>
-  </section>
-</section> -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <a href="mailto:roshin180701@gmail.com">roshin180701@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Phone</h4>
+                    <a href="tel:6374656341">+91 6374656341</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4>Location</h4>
+                    <p>Kabistalam, Thanjavur</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/Roshinraj-T" target="_blank">Roshinraj-T</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- ===========================contact======================================== -->
-<section id="contact">
-  <div class="title d-flex justify-content-center">
-    <h3 class="col-lg-7 col-md-8 col-sm-12">Need Help or Want to collabrate with me leave a Message</h3>
-  </div>
-  <div class="contactform">
-    <div class="containerform">
-    <div class="formdiv">
-      <div class="form-floating  mb-3">
-        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Name</label>
-      </div>
-      <div class="form-floating mb-3 ">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email address</label>
-      </div>      
-      <div class="form-floating mb-3">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Comments</label>
-      </div>
-      <div class="form-floating mb-3 d-flex justify-content-center">
-        <button class="btn btn-primary" type="submit">Submit</button>
-      </div>
-    </div>
-    </div>
-  </div>
-</section>
-<!--================================= footer============================= -->
-<section id="footer">
-  <div class="container">      
-    <div class="bars ">
-      <ul>
-        <li><a href="#head">Home</a></li>
-         <li><a href="#about">About</a></li>
-         <li><a href="#skills">Skills</a></li>
-         <li><a href="#projects">Project</a></li>         
-      </ul>
-    </div>
-    <p class="line"></p>
-    <div class="copy ">  
-    <p>Copyrights <i class="fa-regular fa-copyright"></i> 2023. All rights reserved.</p>
-    </div>
-    <p class="line"></p>
-    <div class="media ">
-      <ul>
-        <li><a href="https://www.instagram.com/_.ro5hin._10._/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a href="https://twitter.com/roshinraj_r_r" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
-        <li><a href="https://github.com/Roshinraj-T?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/roshinraj-thangasamy-58ab98214/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Roshinraj Thangasamy. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Roshinraj-T" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:roshin180701@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
 
-</div>
-
-
-
-
-<!-- ===============================script============================== -->
-<!-- aos -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
