@@ -294,19 +294,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-2 {
-    background: linear-gradient(135deg, #68a063 0%, #539e4e 100%);
+    background: linear-gradient(135deg, #00758f 0%, #005a6f 100%);
     color: white;
-    top: 50%;
-    right: 15%;
+    top: 10%;
+    right: 10%;
     animation-delay: 1s;
 }
 
 .card-3 {
-    background: var(--gradient-1);
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
     color: white;
-    bottom: 15%;
-    left: 25%;
+    top: 40%;
+    left: 20%;
     animation-delay: 2s;
+}
+
+.card-4 {
+    background: linear-gradient(135deg, #e0234e 0%, #c71e43 100%);
+    color: white;
+    top: 40%;
+    right: 20%;
+    animation-delay: 0.5s;
+}
+
+.card-6 {
+    background: linear-gradient(135deg, #f05032 0%, #d8431f 100%);
+    color: white;
+    bottom: 10%;
+    left: 5%;
+    animation-delay: 2.5s;
+}
+
+.card-7 {
+    background: linear-gradient(135deg, #e34f26 0%, #d13916 100%);
+    color: white;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-delay: 3s;
+}
+
+.card-8 {
+    background: linear-gradient(135deg, #1572b6 0%, #0f5a8d 100%);
+    color: white;
+    bottom: 10%;
+    right: 5%;
+    animation-delay: 3.5s;
 }
 
 @keyframes float {
